@@ -68,18 +68,15 @@ class MyApp extends StatelessWidget {
 ```
 lib/
 ├── core/
-│   ├── utils/
-│   │   ├── AppColors.dart      # 🎨 Paleta de colores
-│   │   └── Lotties.dart        # 📁 Rutas de animaciones
-│   └── models/
-│       └── TutorialData.dart   # 📊 Modelo de datos
-├── shared/
-│   └── widgets/
-│       └── HoverLottieAnimation.dart # 🖱️ Widget interactivo
-└── ui/
-    └── tutorial/
-        ├── data_tutorial.dart  # 📋 Contenido del tutorial
-        └── TutorialScreen.dart # 🖼️ Pantalla principal
+│   └── utils/
+│       ├── AppColors.dart      # 🎨 Paleta de colores
+│       └── Lotties.dart        # 📁 Rutas de animaciones
+├── widget/
+│   └── HoverLottieAnimation.dart # 🖱️ Widget interactivo
+└── tutorial/
+    ├── data_tutorial.dart  # 📋 Contenido del tutorial
+    └── TutorialPage.dart # 🖼️ Pantalla principal
+    
 ```
 
 
