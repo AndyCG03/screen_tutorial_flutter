@@ -6,7 +6,8 @@
 
 Un sistema completo de **tutorial/onboarding** para aplicaciones Flutter con animaciones Lottie interactivas. Perfecto para mostrar las características de tu app de manera visual y atractiva.
 
-![Demo del Tutorial](https://raw.githubusercontent.com/lottie-react-native/lottie-react-native/master/.github/example.gif) *Ejemplo de animación Lottie*
+## Demo
+![Demo de la aplicación](example.gif)
 
 ## ✨ Características Principales
 
@@ -82,19 +83,6 @@ lib/
         └── TutorialScreen.dart # 🖼️ Pantalla principal
 ```
 
-## 🎨 Pantallas del Tutorial
-
-El sistema incluye 7 pantallas listas para usar:
-
-| # | Animación | Tema Principal | Descripción |
-|---|-----------|----------------|-------------|
-| 1 | `user.json` | Bienvenida | Introducción a la plataforma |
-| 2 | `tag.json` | Organización | Clasificación temática |
-| 3 | `documents.json` | Gestión Documental | Subida de archivos |
-| 4 | `question2.json` | FAQs | Preguntas frecuentes |
-| 5 | `search.json` | Sistema RAG | Búsqueda avanzada |
-| 6 | `chat.json` | Chat | Prueba de asistentes |
-| 7 | `inbox.json` | Integración API | Conexión externa |
 
 ## 🖱️ Widget Interactivo
 

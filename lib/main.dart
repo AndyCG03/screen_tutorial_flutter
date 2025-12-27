@@ -18,13 +18,13 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         backgroundColor: AppColors.background,
-        body: Builder(  // ✅ AGREGA ESTO: Crea un nuevo contexto
+        body: Builder(
           builder: (BuildContext context) {
             return Center(
               child: ElevatedButton(
                 onPressed: () {
                   Navigator.push(
-                    context,  // ✅ Ahora este context SÍ tiene Navigator
+                    context, 
                     MaterialPageRoute(
                       builder: (context) => TutorialScreen(
                         onCompleted: () {
