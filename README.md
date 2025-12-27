@@ -41,7 +41,6 @@ dependencies:
 flutter:
   assets:
     - assets/lottie/
-    - assets/lottie/Nuevos lotties/
 ```
 
 ### 4. Uso Básico
